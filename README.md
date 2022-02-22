@@ -21,10 +21,12 @@
 >学习路线开源地址：https://github.com/liyupi/code-roadmap
 >
 >韩顺平Java教程：https://www.bilibili.com/video/BV1fh411y7R8
+>
+>参考书籍：《Java核心技术 卷1》
 
 ## 项目进度
 
-
+学习过程中发现看视频学习还是比较慢和拖沓，现在使用书籍为主，视频为辅的学习方法。
 
 ### 韩顺平Java教程
 
