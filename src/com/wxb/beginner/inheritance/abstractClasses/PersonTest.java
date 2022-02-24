@@ -8,7 +8,7 @@ package com.wxb.beginner.inheritance.abstractClasses;
  */
 public class PersonTest {
     public static void main(String[] args) {
-        var people = new Person[2];
+        Person[] people = new Person[2];
 
         // fill the people array with Student and Employee objects | 用 Student 和 Employee 对象填充 people 数组
         people[0] = new Employee("alex", 8000, 2021, 4, 12);

@@ -9,10 +9,10 @@ package com.wxb.beginner.inheritance;
 public class ManagerTest {
     public static void main(String[] args) {
         //构造一个 Manager object
-        var boos = new Manager("alex", 8000, 2021, 4, 12); //var关键字是Java10的新特性，编译器会自动识别需要的声明类型
+        Manager boos = new Manager("alex", 8000, 2021, 4, 12); //var关键字是Java10的新特性，编译器会自动识别需要的声明类型
         boos.setBonus(2000);
 
-        var staff = new Employee[3];//职员数组
+        Employee[] staff = new Employee[3];//职员数组
 
         //fill the staff array with Manager and Employee object | 用 Manager 和 Employee 对象填充人员数组
 
