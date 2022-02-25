@@ -1,0 +1,329 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayCapacity",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.ArrayCapacity",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch CopyPerson",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.CopyPerson",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HanoiProblem",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.HanoiProblem",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.HelloWorld",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld01",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.HelloWorld01",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld02",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.HelloWorld02",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld03",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.HelloWorld03",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch If03",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.If03",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch MazeProblem",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.MazeProblem",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodExercise01",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.MethodExercise01",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch OverLoad01",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.OverLoad01",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Recursion01",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.Recursion01",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch RecursionExercise01",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.RecursionExercise01",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringToBasic",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.StringToBasic",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestPerson",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.TestPerson",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch This01",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.This01",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch VarScope01",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.VarScope01",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeWork01",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.homework.HomeWork01",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeWork02",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.homework.HomeWork02",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeWork03",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.homework.HomeWork03",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeWork04",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.homework.HomeWork04",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeWork05",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.homework.HomeWork05",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeWork06",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.homework.HomeWork06",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeWork07",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.homework.HomeWork07",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeWork09",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.homework.HomeWork09",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeWork12",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.homework.HomeWork12",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeWork13",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.homework.HomeWork13",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeWork14",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter01.homework.HomeWork14",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch AboutArray",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter02.AboutArray",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch AboutTDArray",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter02.AboutTDArray",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo03",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter02.Demo03",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch GuessNumber",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter02.GuessNumber",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld(1)",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter02.HelloWorld",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeWork",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter02.HomeWork",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeWork05(1)",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter02.HomeWork05",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomRollMachine",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter02.RandomRollMachine",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch StoreList",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter02.StoreList",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch A",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter08.access.test01.A",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch AccountTest",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter08.encapsulation.AccountTest",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter08.encapsulation.Test",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch EctendsExercise03",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter08.extend_s.EctendsExercise03",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Extends01",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter08.extend_s.Extends01",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch OverrideExercise",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.chapter08.override.OverrideExercise",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch ManagerTest",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.inheritance.ManagerTest",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
+            "name": "Launch PersonTest",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.inheritance.abstractClasses.PersonTest",
+            "projectName": "JavaBeginner_20e831a8"
+        }
+    ]
+}
