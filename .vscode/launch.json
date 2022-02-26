@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch test01",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.inheritance.test01",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
