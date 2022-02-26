@@ -7,6 +7,8 @@ public class test01 {
         var e = new Employee("alex", 6000, 2021, 4, 12);
         System.out.println(e.hashCode());
         System.out.println(e.getName());
+        System.out.println(e.getName());
+        System.out.println(e.getName());
 
     }
 }
