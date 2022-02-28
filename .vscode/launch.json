@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArrayListTest",
+            "request": "launch",
+            "mainClass": "com.wxb.beginner.inheritance.arrayList.ArrayListTest",
+            "projectName": "JavaBeginner_20e831a8"
+        },
+        {
+            "type": "java",
             "name": "Launch EqualsTest",
             "request": "launch",
             "mainClass": "com.wxb.beginner.inheritance.equals.EqualsTest",
