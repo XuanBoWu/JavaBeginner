@@ -9,6 +9,7 @@ public class test01 {
         System.out.println(e.getName());
         System.out.println(e.getName());
         System.out.println(e.getName());
+        System.out.println(Employee.class);
 
     }
 }
