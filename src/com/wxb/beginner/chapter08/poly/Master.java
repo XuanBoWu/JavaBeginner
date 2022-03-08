@@ -1,5 +1,9 @@
 package com.wxb.beginner.chapter08.poly;
-
+/**
+ * 这个程序演示 不使用多态的情况
+ * @version 1.0 2022-03-08
+ * @author alex
+ */
 public class Master {
     private String name;
 
