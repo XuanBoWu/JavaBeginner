@@ -1,6 +1,8 @@
 package com.wxb.beginner.chapter14.set_;
 
 import java.util.LinkedHashSet;
+import java.util.Map;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -14,9 +16,10 @@ public class LinkedHashSetSource {
         set.add(123);
         set.add(123);
         set.add(new Customer("alex", 1001));
+        set.add(new Customer("alex", 1002));
+        set.add(new Customer("alex", 1002));
         set.add(456);
         set.add("ABC");
-
         System.out.println(set);
     }
 }
@@ -36,6 +39,19 @@ class Customer {
                 "name='" + name + '\'' +
                 ", id=" + id +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Customer customer = (Customer) o;
+        return id == customer.id && Objects.equals(name, customer.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name);
     }
 
     public String getName() {
