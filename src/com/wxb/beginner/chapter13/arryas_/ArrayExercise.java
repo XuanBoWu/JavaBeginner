@@ -51,8 +51,8 @@ public class ArrayExercise {
         Arrays.sort(books, new Comparator<Book>() {
             @Override
             public int compare(Book o1, Book o2) {
-                Book n1 = (Book) o1;
-                Book n2 = (Book) o2;
+                Book n1 =  o1;
+                Book n2 =  o2;
                 return (int) (n1.name.length() - n2.name.length());
             }
         });
