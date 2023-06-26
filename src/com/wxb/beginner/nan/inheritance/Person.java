@@ -17,6 +17,11 @@ public class Person {
         this.gender = gender;
     }
 
+    public void show() {
+        System.out.println("输出人员信息：");
+    }
+
+
     public int getId() {
         return id;
     }
