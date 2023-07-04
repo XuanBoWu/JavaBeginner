@@ -10,4 +10,11 @@ public class Student extends Person {
     public Student(int id, String name, int age, char gender) {
         super(id, name, age, gender);
     }
+
+    public void show() {
+        System.out.println("输出学生信息：");
+    }
+
+
+
 }

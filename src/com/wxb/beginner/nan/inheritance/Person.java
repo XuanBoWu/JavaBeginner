@@ -17,10 +17,10 @@ public class Person {
         this.gender = gender;
     }
 
+    // 子类可以重写该方法
     public void show() {
         System.out.println("输出人员信息：");
     }
-
 
     public int getId() {
         return id;
