@@ -1,6 +1,8 @@
 package com.wxb.beginner.cs61b.lec3_testing.disc02;
 
 /**
+ * 讨论二 中探讨了选择排序算法的实现
+ * @see <a href="https://sp21.datastructur.es/materials/discussion/disc02.pdf">disc02.pdf</a>
  * @author Alex
  * @version 1.0
  * @projectName JavaBeginner
