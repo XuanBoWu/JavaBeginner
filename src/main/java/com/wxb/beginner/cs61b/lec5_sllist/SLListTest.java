@@ -24,7 +24,16 @@ public class SLListTest {
         slList.addFirst(2);
         slList.addFirst(2);
         slList.addFirst(2);
+        slList.deleteFirst();
 
-        Assert.assertEquals(7, slList.size());
+        Assert.assertEquals(6, slList.size());
+    }
+
+    @Test
+    public void addArrayTest() {
+        int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        SLList slList = new SLList(array);
+
+        Assert.assertEquals(9, slList.size());
     }
 }

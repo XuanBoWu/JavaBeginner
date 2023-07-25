@@ -1,6 +1,7 @@
-package com.wxb.beginner.cs61b.lec5_sllist;
+package com.wxb.beginner.cs61b.lec5_sllist.exercise_a_2;
 
 /**
+ * Exercises A level 2
  * @author Alex
  * @version 1.0
  * @projectName JavaBeginner
@@ -67,12 +68,26 @@ public class SLList {
         p.next = new IntNode(x, null);
         size++;
     }
+    public void addLast01(int x) {
+        /* Your Code Here! */
+        IntNode p = sentinel;
+
+        while (p.next != null) {
+            p = p.next;
+            p.next = new IntNode(p.item * p.item, p.next);
+            size++;
+            p = p.next;
+        }
+        p.next = new IntNode(x, null);
+        size++;
+    }
 
     /** Returns the number of items in the list using recursion. */
     public int size() {
         /* Your Code Here! */
         return size;
     }
+
     @Override
     public String toString() {
         IntNode p = sentinel.next;
@@ -89,4 +104,12 @@ public class SLList {
         return  " => " + node.item + toString(node.next);
     }
 
+    public static void main(String[] args) {
+        int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        SLList slList = new SLList(array);
+        slList.addLast01(100);
+        System.out.println(slList.toString());
+        slList.addLast01(100);
+        System.out.println(slList.toString());
+    }
 }
