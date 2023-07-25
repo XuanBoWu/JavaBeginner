@@ -19,28 +19,35 @@ public class SLList {
             next = n;
         }
     }
-    private IntNode first;
+    private IntNode sentinel;
     private int size;
+
+    public SLList() {
+        sentinel = new IntNode(5, null);
+        size = 0;
+    }
     public SLList(int n) {
-        first = new IntNode(n, null);
+        sentinel = new IntNode(5, null);
+        sentinel.next = new IntNode(n, null);
         size = 1;
     }
 
     /** Adds an item to the front of the list. */
     public void addFirst(int x) {
-        this.first = new IntNode(x, first);
+        this.sentinel.next = new IntNode(x, sentinel.next);
         size++;
     }
 
     /** Retrieves the front item from the list. */
     public int getFirst() {
-        return this.first.item;
+        return this.sentinel.next.item;
     }
 
     /** Adds an item to the end of the list. */
     public void addLast(int x) {
         /* Your Code Here! */
-        IntNode p = first;
+        IntNode p = sentinel;
+
         while (p.next != null) {
             p = p.next;
         }
