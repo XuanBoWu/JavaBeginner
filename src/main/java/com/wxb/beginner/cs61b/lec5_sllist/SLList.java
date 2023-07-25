@@ -48,17 +48,4 @@ public class SLList {
         size++;
     }
 
-    /** Returns the number of items in the list using recursion. */
-    public int size() {
-        /* Your Code Here! */
-        return size(this.first);
-    }
-
-    private int size(IntNode p) {
-        if (p.next == null) {
-            return 1;
-        }
-        return 1 + size(p.next);
-    }
-
 }
