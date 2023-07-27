@@ -82,6 +82,18 @@ public class SLList {
         size++;
     }
 
+    public void addAdjacent() {
+        IntNode p = this.sentinel.next;
+        while (p != null) {
+            if (p.next != null && p.item == p.next.item) {
+                int num = p.item * 2;
+                p.item = num;
+                p.next = p.next.next;
+            }
+            p = p.next;
+        }
+    }
+
     /** Returns the number of items in the list using recursion. */
     public int size() {
         /* Your Code Here! */
@@ -105,11 +117,11 @@ public class SLList {
     }
 
     public static void main(String[] args) {
-        int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] array = {1, 1, 2, 4, 5, 5, 6, 8, 8, 9, 9};
         SLList slList = new SLList(array);
-        slList.addLast01(100);
+        slList.addAdjacent();
+        slList.addAdjacent();
         System.out.println(slList.toString());
-        slList.addLast01(100);
-        System.out.println(slList.toString());
+
     }
 }
