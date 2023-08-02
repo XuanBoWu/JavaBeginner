@@ -1,7 +1,7 @@
 package com.wxb.beginner.cs61b.lec5_sllist;
 
-import org.junit.Assert;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 /**
  * @author Alex
@@ -26,7 +26,7 @@ public class SLListTest {
         slList.addFirst(2);
         slList.deleteFirst();
 
-        Assert.assertEquals(6, slList.size());
+        assertEquals(6, slList.size());
     }
 
     @Test
@@ -34,6 +34,6 @@ public class SLListTest {
         int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         SLList slList = new SLList(array);
 
-        Assert.assertEquals(9, slList.size());
+        assertEquals(9, slList.size());
     }
 }
